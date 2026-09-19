@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seleucid Family Tree &mdash; Empires of Persia</title>
+<meta name="description" content="Genealogy of the Seleucid kings and queens, from Seleucus I Nicator to Antiochus XIII.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="mark">&#10022;</span> Empires of Persia</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#ancient-era" class="active">Pre-Islamic Iran</a>
+      <a href="index.html#islamic-era">Arrival of Islam</a>
+      <a href="index.html#modern-era">Modern Iran</a>
+    </div>
+    <button class="theme-toggle" data-theme-toggle type="button">
+      <span class="icon">&#9681;</span><span class="label">Auto</span>
+    </button>
+    <button class="about-btn" data-about-toggle type="button">About</button>
+  </div>
+</nav>
+
+<div class="about-overlay" data-about-overlay hidden>
+  <div class="about-modal" role="dialog" aria-modal="true" aria-labelledby="about-title">
+    <button class="about-close" data-about-close type="button" aria-label="Close">&times;</button>
+    <h2 id="about-title">About This Site</h2>
+    <p>This site was made as a hobby project and is a work in progress. Its content still needs to be fact-checked and reviewed &mdash; if you notice anything in need of correction, feel free to email <a href="mailto:info@abari.com">info@abari.com</a>.</p>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="breadcrumb">
+    <a href="index.html">Home</a><span class="sep">/</span>
+    <a href="seleucid.html">Seleucid Empire</a><span class="sep">/</span>Family Tree
+  </div>
+
+  <div class="tree-page-header">
+    <div class="subtitle">The House of Seleucus</div>
+    <h1>Genealogy of the Kings</h1>
+  </div>
+
+  <div class="tree-nav-row">
+    <a class="tree-link" href="seleucid.html">
+      <span aria-hidden="true">&#8592;</span> Back to the Seleucid Empire
+    </a>
+  </div>
+
+  <div class="tree-frame">
+    <img src="assets/seleucid-family-tree.svg" alt="Genealogical chart of the Seleucid dynasty, from Seleucus I Nicator through the last Seleucid kings">
+  </div>
+
+  <div class="tree-nav-row">
+    <a class="tree-link" href="seleucid.html">
+      <span aria-hidden="true">&#8592;</span> Back to the Seleucid Empire
+    </a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="fmark">&#10022;</span>
+    <div class="copyright">&copy; <span id="year"></span> Empires of Persia. All rights reserved.</div>
+    <div class="footer-tag">An independent historical reference project.</div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/theme.js"></script>
+</body>
+</html>
